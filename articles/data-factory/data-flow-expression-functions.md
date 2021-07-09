@@ -199,7 +199,7 @@ Gets the current date when this job starts to run. You can pass an optional time
 ___
 ### <code>currentTimestamp</code>
 <code><b>currentTimestamp() => timestamp</b></code><br/><br/>
-Gets the current timestamp when the job starts to run with local time zone.  
+Gets the current timestamp when the job starts to run with local time zone on the server side.  
 * ``currentTimestamp() == toTimestamp('2250-12-31 12:12:12') -> false``  
 ___
 ### <code>currentUTC</code>
